@@ -1,4 +1,10 @@
+body {
+  min-height: 2000px;
+}
 .heroes {
   padding-top: 2rem;
-  background-color: rgb(204, 235, 204);
+  background-color: #ccebcc;
+}
+#project {
+  background-color: #ccebcc;
 }
