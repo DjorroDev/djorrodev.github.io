@@ -12,15 +12,15 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <link rel="icon" type="image/png" href="img/Cube.png" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <title>Portofolio</title>
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Aufar Abdul Mawarid</a>
         <button
@@ -37,16 +37,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Project</a>
+              <a class="nav-link" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -57,7 +57,7 @@
     <section class="heroes text-center">
       <img src="img/Muka.jpg" alt="Aufar" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Aufar</h1>
-      <p class="lead">a.k.a Djorro | Programmer</p>
+      <p class="lead">a.k.a Djorro | Developer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -77,13 +77,14 @@
         </div>
         <div class="row justify-content-center text-center fs-6">
           <div class="col-md-4 mb-3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto velit cupiditate
-            omnis error impedit deserunt, porro voluptas sequi voluptatum consectetur ipsum officia
-            eveniet optio vero cumque necessitatibus dolore amet nostrum.
+            I am Aufar, on the internet people known me as Djorro. My first language was C# and
+            started to make games on unity engine. Then learn web development back and front end.
+            Right now I am focus on android development with flutter and try server side with
+            firebase.
           </div>
           <div class="col-md-4 mb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rerum quos odit labore
-            eos! Alias quia voluptatum harum reprehenderit laborum tempora.
+            I didn't have many projects for now. because most stuff I made is for study and learn.
+            hopefully I can make more and become professional.
           </div>
         </div>
       </div>
@@ -104,37 +105,36 @@
             <h2>Projects</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/Projects/g3.jpeg" class="card-img-top" alt="project1" />
+              <img src="img/Projects/project1.png" class="card-img-top" alt="project1" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
+                <p class="card-text">First game that I made in 14 days with Unity Engine</p>
+                <a href="https://djorro.itch.io/ampass" class="btn btn-success">Play it!</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/Projects/g2.jpeg" class="card-img-top" alt="project2" />
+              <img src="img/Projects/project2.png" class="card-img-top" alt="project2" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
+                <p class="card-text">Second game I made under 7 days for brackeys games jam.</p>
+                <a href="https://djorro.itch.io/rewinder-gun" class="btn btn-success">Play it!</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/Projects/g1.png" class="card-img-top" alt="project3" />
+              <img src="img/Projects/project3.jpeg" class="card-img-top" alt="project3" />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  My first Flutter Project and I use it a lot for workout. Really proud for this one
+                  although it was simple.
                 </p>
+                <a href="https://github.com/DjorroDev/Workout-Timer-flutter" class="btn btn-success"
+                  >Page</a
+                >
               </div>
             </div>
           </div>

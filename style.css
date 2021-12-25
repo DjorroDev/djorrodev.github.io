@@ -1,7 +1,10 @@
 .heroes {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: #ccebcc;
 }
 #project {
   background-color: #ccebcc;
+}
+section {
+  padding-top: 5rem;
 }
